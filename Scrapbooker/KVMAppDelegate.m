@@ -12,9 +12,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [KVMDatabase createEditableCopyOfDatabaseIfNeeded];
+    [KVMDatabase initDatabase];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    KVMScrapbookViewController* mainView = [[KVMScrapbookViewController alloc] initWithStyle:UITableViewStylePlain];
+    [mainView.navigationItem setTitle:@"Scrapbook"];
+    [mainView.navigationItem setRightBarButtonItems:[NSArray arrayWithObject:[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:mainView action:@selector(addButtonPressed)]] animated:NO];
+    
+    self.navController = [[UINavigationController alloc] initWithRootViewController:mainView];
+    self.navController.navigationBar.tintColor = [UIColor colorWithRed:48.0/255.0 green:36.0/255.0 blue:30.0/255.0 alpha:1.0];
+    [self.window setRootViewController:self.navController];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

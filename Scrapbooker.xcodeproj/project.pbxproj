@@ -7,7 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1763BBB717F7E605005A2DD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763BBB617F7E605005A2DD4 /* UIKit.framework */; };
+		17113FFE17F8D02000EE1B7A /* KVMInstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17113FFC17F8D02000EE1B7A /* KVMInstagramViewController.m */; };
+		17113FFF17F8D02000EE1B7A /* KVMInstagramViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17113FFD17F8D02000EE1B7A /* KVMInstagramViewController.xib */; };
+		1711400817F8D3A300EE1B7A /* KVMSelectPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711400617F8D3A300EE1B7A /* KVMSelectPhotoViewController.m */; };
+		1711400917F8D3A300EE1B7A /* KVMSelectPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1711400717F8D3A300EE1B7A /* KVMSelectPhotoViewController.xib */; };
+		1711400D17F8D53000EE1B7A /* KVMFlickrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711400B17F8D53000EE1B7A /* KVMFlickrViewController.m */; };
+		1711401417F8D8AD00EE1B7A /* KVMInstagramTagSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711401317F8D8AC00EE1B7A /* KVMInstagramTagSearcher.m */; };
+		1711401817F8E8DB00EE1B7A /* KVMURLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711401717F8E8DB00EE1B7A /* KVMURLImageView.m */; };
+		1711401B17F8EBB300EE1B7A /* KVMFlickrTagSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711401A17F8EBB300EE1B7A /* KVMFlickrTagSearcher.m */; };
+		1711401F17F8ED2000EE1B7A /* KVMFlickrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1711401E17F8ED2000EE1B7A /* KVMFlickrViewController.xib */; };
+		174AA0E01818813000DB4808 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174AA0DF1818813000DB4808 /* Social.framework */; };
+		174AA0E21818813400DB4808 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174AA0E11818813400DB4808 /* Accounts.framework */; };
+		174F42611800F3F9004E45A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763BBB617F7E605005A2DD4 /* UIKit.framework */; };
+		174F42621800F3FF004E45A4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 174F425F1800F3D8004E45A4 /* libsqlite3.dylib */; };
+		174F42671800F4B0004E45A4 /* KVMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 174F42661800F4B0004E45A4 /* KVMDatabase.m */; };
+		174F426B1801099F004E45A4 /* ScrapbookPages.sql in Resources */ = {isa = PBXBuildFile; fileRef = 174F426A1801099F004E45A4 /* ScrapbookPages.sql */; };
+		175765C71807B1C10023A679 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 175765C61807B1C10023A679 /* camera.png */; };
+		175765C91807B2040023A679 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 175765C81807B2040023A679 /* photo.png */; };
+		1761C4FC181828F70023AA98 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1761C4FB181828F70023AA98 /* twitter.png */; };
 		1763BBB917F7E605005A2DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763BBB817F7E605005A2DD4 /* Foundation.framework */; };
 		1763BBBB17F7E605005A2DD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763BBBA17F7E605005A2DD4 /* CoreGraphics.framework */; };
 		1763BBC117F7E605005A2DD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1763BBBF17F7E605005A2DD4 /* InfoPlist.strings */; };
@@ -21,6 +38,23 @@
 		1763BBD717F7E605005A2DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1763BBB817F7E605005A2DD4 /* Foundation.framework */; };
 		1763BBDF17F7E605005A2DD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1763BBDD17F7E605005A2DD4 /* InfoPlist.strings */; };
 		1763BBE217F7E605005A2DD4 /* ScrapbookerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1763BBE117F7E605005A2DD4 /* ScrapbookerTests.m */; };
+		1763BBED17F7E64C005A2DD4 /* KVMScrapbookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1763BBEC17F7E64C005A2DD4 /* KVMScrapbookViewController.m */; };
+		1763BBF017F7ECFD005A2DD4 /* KVMScrapbookPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1763BBEF17F7ECFD005A2DD4 /* KVMScrapbookPage.m */; };
+		1763BBF717F7F008005A2DD4 /* KVMPageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1763BBF517F7F008005A2DD4 /* KVMPageDetailViewController.m */; };
+		1763BBF817F7F008005A2DD4 /* KVMPageDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1763BBF617F7F008005A2DD4 /* KVMPageDetailViewController.xib */; };
+		1763BBFC17F7F339005A2DD4 /* KVMAddPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1763BBFA17F7F338005A2DD4 /* KVMAddPageViewController.m */; };
+		1763BBFD17F7F339005A2DD4 /* KVMAddPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1763BBFB17F7F339005A2DD4 /* KVMAddPageViewController.xib */; };
+		176DD8271817408D00BFFED9 /* paper-message.png in Resources */ = {isa = PBXBuildFile; fileRef = 176DD8261817408D00BFFED9 /* paper-message.png */; };
+		176DD83018174E2400BFFED9 /* KVMImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176DD82E18174E2400BFFED9 /* KVMImagePickerViewController.m */; };
+		176DD83118174E2400BFFED9 /* KVMImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 176DD82F18174E2400BFFED9 /* KVMImagePickerViewController.xib */; };
+		176DD83718174FE400BFFED9 /* KVMCropRegionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 176DD83518174FE400BFFED9 /* KVMCropRegionView.m */; };
+		17852FE8180DD8C600852CD6 /* polaroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 17852FE7180DD8C600852CD6 /* polaroid.png */; };
+		17852FF2180DF76F00852CD6 /* icon_Large.png in Resources */ = {isa = PBXBuildFile; fileRef = 17852FF1180DF76F00852CD6 /* icon_Large.png */; };
+		17852FF4180DF7A400852CD6 /* icon_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 17852FF3180DF7A300852CD6 /* icon_Small.png */; };
+		17F3F3991817677100C3D653 /* KVMCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F3F3971817677100C3D653 /* KVMCropViewController.m */; };
+		17F3F39A1817677100C3D653 /* KVMCropViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F3F3981817677100C3D653 /* KVMCropViewController.xib */; };
+		17F3F39C1817742000C3D653 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F3F39B1817742000C3D653 /* CoreImage.framework */; };
+		17F3F39E1817906B00C3D653 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F3F39D1817906B00C3D653 /* bookmark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +68,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17113FFB17F8D02000EE1B7A /* KVMInstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMInstagramViewController.h; sourceTree = "<group>"; };
+		17113FFC17F8D02000EE1B7A /* KVMInstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMInstagramViewController.m; sourceTree = "<group>"; };
+		17113FFD17F8D02000EE1B7A /* KVMInstagramViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMInstagramViewController.xib; sourceTree = "<group>"; };
+		1711400517F8D3A300EE1B7A /* KVMSelectPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMSelectPhotoViewController.h; sourceTree = "<group>"; };
+		1711400617F8D3A300EE1B7A /* KVMSelectPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMSelectPhotoViewController.m; sourceTree = "<group>"; };
+		1711400717F8D3A300EE1B7A /* KVMSelectPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMSelectPhotoViewController.xib; sourceTree = "<group>"; };
+		1711400A17F8D52F00EE1B7A /* KVMFlickrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMFlickrViewController.h; sourceTree = "<group>"; };
+		1711400B17F8D53000EE1B7A /* KVMFlickrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMFlickrViewController.m; sourceTree = "<group>"; };
+		1711401217F8D8AC00EE1B7A /* KVMInstagramTagSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMInstagramTagSearcher.h; sourceTree = "<group>"; };
+		1711401317F8D8AC00EE1B7A /* KVMInstagramTagSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMInstagramTagSearcher.m; sourceTree = "<group>"; };
+		1711401517F8DA2500EE1B7A /* KVMTagSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMTagSearcher.h; sourceTree = "<group>"; };
+		1711401617F8E8DA00EE1B7A /* KVMURLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMURLImageView.h; sourceTree = "<group>"; };
+		1711401717F8E8DB00EE1B7A /* KVMURLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMURLImageView.m; sourceTree = "<group>"; };
+		1711401917F8EBB200EE1B7A /* KVMFlickrTagSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMFlickrTagSearcher.h; sourceTree = "<group>"; };
+		1711401A17F8EBB300EE1B7A /* KVMFlickrTagSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMFlickrTagSearcher.m; sourceTree = "<group>"; };
+		1711401E17F8ED2000EE1B7A /* KVMFlickrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMFlickrViewController.xib; sourceTree = "<group>"; };
+		174AA0DF1818813000DB4808 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		174AA0E11818813400DB4808 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		174F425F1800F3D8004E45A4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		174F42651800F4B0004E45A4 /* KVMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMDatabase.h; sourceTree = "<group>"; };
+		174F42661800F4B0004E45A4 /* KVMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMDatabase.m; sourceTree = "<group>"; };
+		174F426A1801099F004E45A4 /* ScrapbookPages.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScrapbookPages.sql; sourceTree = "<group>"; };
+		175765C61807B1C10023A679 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		175765C81807B2040023A679 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		1761C4FB181828F70023AA98 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../twitter.png; sourceTree = "<group>"; };
 		1763BBB317F7E605005A2DD4 /* Scrapbooker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrapbooker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1763BBB617F7E605005A2DD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1763BBB817F7E605005A2DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +112,30 @@
 		1763BBDE17F7E605005A2DD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1763BBE017F7E605005A2DD4 /* ScrapbookerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrapbookerTests.h; sourceTree = "<group>"; };
 		1763BBE117F7E605005A2DD4 /* ScrapbookerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrapbookerTests.m; sourceTree = "<group>"; };
+		1763BBEB17F7E64C005A2DD4 /* KVMScrapbookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMScrapbookViewController.h; sourceTree = "<group>"; };
+		1763BBEC17F7E64C005A2DD4 /* KVMScrapbookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMScrapbookViewController.m; sourceTree = "<group>"; };
+		1763BBEE17F7ECFD005A2DD4 /* KVMScrapbookPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMScrapbookPage.h; sourceTree = "<group>"; };
+		1763BBEF17F7ECFD005A2DD4 /* KVMScrapbookPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMScrapbookPage.m; sourceTree = "<group>"; };
+		1763BBF417F7F008005A2DD4 /* KVMPageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMPageDetailViewController.h; sourceTree = "<group>"; };
+		1763BBF517F7F008005A2DD4 /* KVMPageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMPageDetailViewController.m; sourceTree = "<group>"; };
+		1763BBF617F7F008005A2DD4 /* KVMPageDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMPageDetailViewController.xib; sourceTree = "<group>"; };
+		1763BBF917F7F338005A2DD4 /* KVMAddPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMAddPageViewController.h; sourceTree = "<group>"; };
+		1763BBFA17F7F338005A2DD4 /* KVMAddPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMAddPageViewController.m; sourceTree = "<group>"; };
+		1763BBFB17F7F339005A2DD4 /* KVMAddPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMAddPageViewController.xib; sourceTree = "<group>"; };
+		176DD8261817408D00BFFED9 /* paper-message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper-message.png"; sourceTree = "<group>"; };
+		176DD82D18174E2400BFFED9 /* KVMImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMImagePickerViewController.h; sourceTree = "<group>"; };
+		176DD82E18174E2400BFFED9 /* KVMImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMImagePickerViewController.m; sourceTree = "<group>"; };
+		176DD82F18174E2400BFFED9 /* KVMImagePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMImagePickerViewController.xib; sourceTree = "<group>"; };
+		176DD83418174FE300BFFED9 /* KVMCropRegionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMCropRegionView.h; sourceTree = "<group>"; };
+		176DD83518174FE400BFFED9 /* KVMCropRegionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMCropRegionView.m; sourceTree = "<group>"; };
+		17852FE7180DD8C600852CD6 /* polaroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polaroid.png; sourceTree = "<group>"; };
+		17852FF1180DF76F00852CD6 /* icon_Large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Large.png; sourceTree = "<group>"; };
+		17852FF3180DF7A300852CD6 /* icon_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Small.png; sourceTree = "<group>"; };
+		17F3F3961817677100C3D653 /* KVMCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMCropViewController.h; sourceTree = "<group>"; };
+		17F3F3971817677100C3D653 /* KVMCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMCropViewController.m; sourceTree = "<group>"; };
+		17F3F3981817677100C3D653 /* KVMCropViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMCropViewController.xib; sourceTree = "<group>"; };
+		17F3F39B1817742000C3D653 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		17F3F39D1817906B00C3D653 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +143,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1763BBB717F7E605005A2DD4 /* UIKit.framework in Frameworks */,
-				1763BBB917F7E605005A2DD4 /* Foundation.framework in Frameworks */,
+				174AA0E21818813400DB4808 /* Accounts.framework in Frameworks */,
+				174AA0E01818813000DB4808 /* Social.framework in Frameworks */,
+				17F3F39C1817742000C3D653 /* CoreImage.framework in Frameworks */,
 				1763BBBB17F7E605005A2DD4 /* CoreGraphics.framework in Frameworks */,
+				174F42621800F3FF004E45A4 /* libsqlite3.dylib in Frameworks */,
+				174F42611800F3F9004E45A4 /* UIKit.framework in Frameworks */,
+				1763BBB917F7E605005A2DD4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +169,11 @@
 		1763BBAA17F7E605005A2DD4 = {
 			isa = PBXGroup;
 			children = (
+				174AA0E11818813400DB4808 /* Accounts.framework */,
+				174AA0DF1818813000DB4808 /* Social.framework */,
+				17F3F39B1817742000C3D653 /* CoreImage.framework */,
+				17852FF3180DF7A300852CD6 /* icon_Small.png */,
+				17852FF1180DF76F00852CD6 /* icon_Large.png */,
 				1763BBBC17F7E605005A2DD4 /* Scrapbooker */,
 				1763BBDA17F7E605005A2DD4 /* ScrapbookerTests */,
 				1763BBB517F7E605005A2DD4 /* Frameworks */,
@@ -101,6 +193,7 @@
 		1763BBB517F7E605005A2DD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				174F425F1800F3D8004E45A4 /* libsqlite3.dylib */,
 				1763BBB617F7E605005A2DD4 /* UIKit.framework */,
 				1763BBB817F7E605005A2DD4 /* Foundation.framework */,
 				1763BBBA17F7E605005A2DD4 /* CoreGraphics.framework */,
@@ -112,9 +205,52 @@
 		1763BBBC17F7E605005A2DD4 /* Scrapbooker */ = {
 			isa = PBXGroup;
 			children = (
+				1761C4FB181828F70023AA98 /* twitter.png */,
+				17F3F39D1817906B00C3D653 /* bookmark.png */,
+				176DD83418174FE300BFFED9 /* KVMCropRegionView.h */,
+				176DD83518174FE400BFFED9 /* KVMCropRegionView.m */,
+				176DD8261817408D00BFFED9 /* paper-message.png */,
+				17852FE7180DD8C600852CD6 /* polaroid.png */,
+				175765C81807B2040023A679 /* photo.png */,
+				175765C61807B1C10023A679 /* camera.png */,
+				1711401917F8EBB200EE1B7A /* KVMFlickrTagSearcher.h */,
+				1711401A17F8EBB300EE1B7A /* KVMFlickrTagSearcher.m */,
+				1711401617F8E8DA00EE1B7A /* KVMURLImageView.h */,
+				1711401717F8E8DB00EE1B7A /* KVMURLImageView.m */,
+				1711401517F8DA2500EE1B7A /* KVMTagSearcher.h */,
+				1711401217F8D8AC00EE1B7A /* KVMInstagramTagSearcher.h */,
+				1711401317F8D8AC00EE1B7A /* KVMInstagramTagSearcher.m */,
 				1763BBC517F7E605005A2DD4 /* KVMAppDelegate.h */,
 				1763BBC617F7E605005A2DD4 /* KVMAppDelegate.m */,
 				1763BBBD17F7E605005A2DD4 /* Supporting Files */,
+				1763BBEB17F7E64C005A2DD4 /* KVMScrapbookViewController.h */,
+				1763BBEC17F7E64C005A2DD4 /* KVMScrapbookViewController.m */,
+				1763BBEE17F7ECFD005A2DD4 /* KVMScrapbookPage.h */,
+				1763BBEF17F7ECFD005A2DD4 /* KVMScrapbookPage.m */,
+				1763BBF417F7F008005A2DD4 /* KVMPageDetailViewController.h */,
+				1763BBF517F7F008005A2DD4 /* KVMPageDetailViewController.m */,
+				1763BBF617F7F008005A2DD4 /* KVMPageDetailViewController.xib */,
+				1763BBF917F7F338005A2DD4 /* KVMAddPageViewController.h */,
+				1763BBFA17F7F338005A2DD4 /* KVMAddPageViewController.m */,
+				1763BBFB17F7F339005A2DD4 /* KVMAddPageViewController.xib */,
+				17113FFB17F8D02000EE1B7A /* KVMInstagramViewController.h */,
+				17113FFC17F8D02000EE1B7A /* KVMInstagramViewController.m */,
+				17113FFD17F8D02000EE1B7A /* KVMInstagramViewController.xib */,
+				1711400517F8D3A300EE1B7A /* KVMSelectPhotoViewController.h */,
+				1711400617F8D3A300EE1B7A /* KVMSelectPhotoViewController.m */,
+				1711400717F8D3A300EE1B7A /* KVMSelectPhotoViewController.xib */,
+				1711400A17F8D52F00EE1B7A /* KVMFlickrViewController.h */,
+				1711400B17F8D53000EE1B7A /* KVMFlickrViewController.m */,
+				1711401E17F8ED2000EE1B7A /* KVMFlickrViewController.xib */,
+				174F42651800F4B0004E45A4 /* KVMDatabase.h */,
+				174F42661800F4B0004E45A4 /* KVMDatabase.m */,
+				174F426A1801099F004E45A4 /* ScrapbookPages.sql */,
+				176DD82D18174E2400BFFED9 /* KVMImagePickerViewController.h */,
+				176DD82E18174E2400BFFED9 /* KVMImagePickerViewController.m */,
+				176DD82F18174E2400BFFED9 /* KVMImagePickerViewController.xib */,
+				17F3F3961817677100C3D653 /* KVMCropViewController.h */,
+				17F3F3971817677100C3D653 /* KVMCropViewController.m */,
+				17F3F3981817677100C3D653 /* KVMCropViewController.xib */,
 			);
 			path = Scrapbooker;
 			sourceTree = "<group>";
@@ -228,6 +364,22 @@
 				1763BBC917F7E605005A2DD4 /* Default.png in Resources */,
 				1763BBCB17F7E605005A2DD4 /* Default@2x.png in Resources */,
 				1763BBCD17F7E605005A2DD4 /* Default-568h@2x.png in Resources */,
+				1763BBF817F7F008005A2DD4 /* KVMPageDetailViewController.xib in Resources */,
+				1763BBFD17F7F339005A2DD4 /* KVMAddPageViewController.xib in Resources */,
+				17113FFF17F8D02000EE1B7A /* KVMInstagramViewController.xib in Resources */,
+				1711400917F8D3A300EE1B7A /* KVMSelectPhotoViewController.xib in Resources */,
+				1711401F17F8ED2000EE1B7A /* KVMFlickrViewController.xib in Resources */,
+				174F426B1801099F004E45A4 /* ScrapbookPages.sql in Resources */,
+				175765C71807B1C10023A679 /* camera.png in Resources */,
+				175765C91807B2040023A679 /* photo.png in Resources */,
+				17852FE8180DD8C600852CD6 /* polaroid.png in Resources */,
+				17852FF2180DF76F00852CD6 /* icon_Large.png in Resources */,
+				17852FF4180DF7A400852CD6 /* icon_Small.png in Resources */,
+				176DD8271817408D00BFFED9 /* paper-message.png in Resources */,
+				176DD83118174E2400BFFED9 /* KVMImagePickerViewController.xib in Resources */,
+				17F3F39A1817677100C3D653 /* KVMCropViewController.xib in Resources */,
+				17F3F39E1817906B00C3D653 /* bookmark.png in Resources */,
+				1761C4FC181828F70023AA98 /* twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +416,20 @@
 			files = (
 				1763BBC317F7E605005A2DD4 /* main.m in Sources */,
 				1763BBC717F7E605005A2DD4 /* KVMAppDelegate.m in Sources */,
+				1763BBED17F7E64C005A2DD4 /* KVMScrapbookViewController.m in Sources */,
+				1763BBF017F7ECFD005A2DD4 /* KVMScrapbookPage.m in Sources */,
+				1763BBF717F7F008005A2DD4 /* KVMPageDetailViewController.m in Sources */,
+				1763BBFC17F7F339005A2DD4 /* KVMAddPageViewController.m in Sources */,
+				17113FFE17F8D02000EE1B7A /* KVMInstagramViewController.m in Sources */,
+				1711400817F8D3A300EE1B7A /* KVMSelectPhotoViewController.m in Sources */,
+				1711400D17F8D53000EE1B7A /* KVMFlickrViewController.m in Sources */,
+				1711401417F8D8AD00EE1B7A /* KVMInstagramTagSearcher.m in Sources */,
+				1711401817F8E8DB00EE1B7A /* KVMURLImageView.m in Sources */,
+				1711401B17F8EBB300EE1B7A /* KVMFlickrTagSearcher.m in Sources */,
+				174F42671800F4B0004E45A4 /* KVMDatabase.m in Sources */,
+				176DD83018174E2400BFFED9 /* KVMImagePickerViewController.m in Sources */,
+				176DD83718174FE400BFFED9 /* KVMCropRegionView.m in Sources */,
+				17F3F3991817677100C3D653 /* KVMCropViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +602,7 @@
 				1763BBE717F7E605005A2DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1763BBE817F7E605005A2DD4 /* Build configuration list for PBXNativeTarget "ScrapbookerTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +611,7 @@
 				1763BBEA17F7E605005A2DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

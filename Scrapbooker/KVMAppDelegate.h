@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KVMScrapbookViewController.h"
+#import "KVMDatabase.h"
 
 @interface KVMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property UINavigationController *navController;
 
 @end
